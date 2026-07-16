@@ -2,14 +2,23 @@
 Training a machine learning model on various public health data to predict and assess the probability that a county experiences a hospital closure within the next few years.
 
 ### Introduction
-Hospital closures are becoming more common in the United States. While many communities are facing change or decline in the face of rapidly shifting economic and demographic trends, for-profit hospital systems are faced with a challenge: make healthcare operations profitable or cease operations entirely. 
+Hospital closures are becoming more common in the United States. While many communities are facing change or decline in the face of rapidly shifting economic and demographic trends, for-profit hospital systems are faced with a choice: continue serving a community in spite of operational underperformance, make the healthcare operations more profitable, or cease operations in a geography entirely. 
 
-Hospital closures often have severe consequences for communities, leading to further decline and decay of a population.
+Another notable trend is consolidation of businesses in healthcare. In addition to hospitals, it is also impacting specific fields of medicine like dental and veterinary practices. While the corporate consolidation of healthcare (or less competition in a geography) may lead to beneficial impacts at scale, it often does not serve the community who may face greater costs, poorer service, and greater risk when large-scale changes (e.g. fewer in-network insurers) are not met with competitive alternatives in that geography. 
 
-This analysis aims to understand hospital closures nationwide through public health data (namely, the AHRF) and then supplement the core dataset with additional data sources to provide an in-depth statistical analysis and forecast that can help identify at-risk communities and populations that are likely to face further decline or divestment.
+Hospital closures - especially when they entirely remove healthcare access from a community - often lead to severe consequences for those affected communities, leading to further decline and decay of the population and health over time that is extremely hard to recover from. 
+
+This analysis aims to understand hospital closures nationwide through public health data (namely, the AHRF's hospital counts) and then supplement the core dataset with additional county-level data sources to provide an in-depth statistical analysis and forecast that can help identify at-risk the communities and populations that are likely to face further decline or divestment in the future.
 
 
 ### Overview
+This project intends to address:
+- Various sources of public health data & why they matter 
+- Data engineering work to combine the various data
+- Data science techniques to analyze the factors most correlated with (or that most often precede) hospital closures
+- Machine learning techniques to train a model on historical data and then forecast hospital closures into the future
+- Visualizations of various data elements at the county level to see and interact with data and trends
+- Conclusive explanations of findings and how this new information can be further utilized
 
 ### Evaluating Sources of Public Health Data 
 
@@ -153,18 +162,19 @@ This section will walk through the data engineering steps to create a singlular 
 This section will seek to understand what factors are most correlated with declining hospital numbers as well as train a model to predict hospital closures into the future. It may also include the creation of a "Hospital Vulnerability Index" or "Healthcare Access Risk Index" to indicate which counties are most at-risk of decline and/or divestment.
 
 
-### Analysis on forecasting hospital closures
+### In-depth analysis on the forecasting of hospital closures
 This section will explain the outcome of the applied statistical and machine learning techniques. As a bonus, mapping counties nationwide using their FIPS codes to visualize the Hospital Vulnerability Index would be beneficial.
 
 
-### Additional Insights and Analysis 
+### Additional Analysis, Insights, Visualization (TBD)
 [Work in Progress (WIP)]
+
 
 ### Conclusion 
 [Work in Progress (WIP)]
 
-### Resources
 
+### Resources
 #### On Hospital Closures
 
 National Rural Health Association - Advocacy 
