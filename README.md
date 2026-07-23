@@ -64,7 +64,7 @@ Provides the following at the county-level:
 - Medicare spending
 - Beneficiary demographics
 
-Why it matters: Hospitals heavily depend on CMS (Medicare & Medicaid) reimbursement, as those covered otherwise many not be able to afford or recieve care. At the same time, populations with high Medicare & Medicaid enrollment can create financial pressures for hospitals, as there tends to be lower profit margins for care provided to these beneficiaries. Enrollment rates and other demographic factors (especially in conjunction with other data such as poverty rates provided by the U.S. Census) can be highly indicative of population trends that impact hospital performance. 
+Why it matters: Hospitals heavily depend on CMS for reimbursements, as those covered otherwise many not be able to afford or recieve care. At the same time, populations with high Medicare & Medicaid enrollment (with Medicaid being administered at the state level) can create financial pressures for hospitals, as there tends to be lower profit margins for care provided to these beneficiaries. Enrollment rates and other demographic factors (especially in conjunction with other data such as poverty rates provided by the U.S. Census) can be highly indicative of population trends that impact hospital performance. 
 
 
 #### Other important supplementary data sources:
@@ -159,7 +159,7 @@ This section will walk through the data engineering steps to create a singlular 
 
 
 ### Applying statistical and machine learning techniques to the unified dataset
-This section will seek to understand what factors are most correlated with declining hospital numbers as well as train a model to predict hospital closures into the future. It may also include the creation of a "Hospital Vulnerability Index" or "Healthcare Access Risk Index" to indicate which counties are most at-risk of decline and/or divestment.
+This section will seek to understand what factors are most correlated with declining hospital numbers (e.g. using a correlation matrix) as well as train a model to predict hospital closures into the future. It may also include the creation of a "Hospital Vulnerability Index" or "Healthcare Access Risk Index" to indicate which counties are most at-risk of decline and/or divestment.
 
 
 ### In-depth analysis on the forecasting of hospital closures
